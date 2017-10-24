@@ -1,0 +1,60 @@
+body{
+  font-family: 'Roboto Slab', serif;
+  /*outline: 1px solid yellow;*/
+}
+
+body > h5{
+  position: relative;
+  margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+body table{
+width: 400px;
+height: 294px;
+}
+
+body hr{
+border: 2px solid gray;
+border-radius: 50px;
+position: relative;
+right: 480px;
+margin-top: 5px;
+margin-bottom: 10px;
+width: 42px;
+height: 0;
+background-color: red;
+display: block;
+}
+
+table tr{
+  height: 135px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+table tr td{
+  width: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+table tr td img{
+  width: 100px;
+  height: 124px;
+  max-width: 100%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+table tr td p{
+  text-shadow: 2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  color: #fff;
+  font-size: 9px;
+  display: inline;
+  position: relative;
+  bottom: 30px;
+  left: 40px;
+  font-weight: bolder;
+}
